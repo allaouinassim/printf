@@ -1,11 +1,9 @@
 #include "main.h"
 
 void print_buffer(char buffer[], int *buff_ind);
-
 /**
  * _printf - Prints formatted output to the standard output.
- *
- * @format: The format string.
+ * format: The format string.
  *
  * Return: The number of characters printed.
  */
@@ -57,9 +55,8 @@ int _printf(const char *format, ...)
 /**
  * print_buffer - Prints the contents of the buffer to the standard output
  *                if it exists.
- *
- * @buffer: The buffer containing the characters to write.
- * @buff_ind: A pointer to the index of the next character to add to the buffer
+ * buffer: The buffer containing the characters to write.
+ * buff_ind: A pointer to the index of the next character to add to the buffer
  *            and also represents the length of the buffer.
  */
 void print_buffer(char buffer[], int *buff_ind)
